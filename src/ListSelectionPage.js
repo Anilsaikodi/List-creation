@@ -42,14 +42,14 @@ function ListSelectionPage({ lists, navigateTo, isHomePage, updateLists }) {
 
   const handleCancel = () => {
     if (isHomePage) {
-      navigateTo('/'); // Navigate back to the home page
+      navigateTo('/List-creation'); // Navigate back to the home page
     }
   };
 
   const handleUpdate = () => {
     const updatedList = [...selectedList, ...newList];
     updateLists(updatedList);
-    navigateTo('/');
+    navigateTo('/List-creation');
   };
 
   const getListNumber = (listNumber) => {
