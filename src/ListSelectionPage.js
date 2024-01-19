@@ -91,7 +91,7 @@ function ListSelectionPage({ lists, navigateTo, isHomePage, updateLists }) {
                 <div key={list.id} className="list-item">
                   <h3 className="small-text">{list.name}</h3>
                   <button onClick={() => handleMoveLeft(list.id)}>&larr;</button>
-                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
                   <button onClick={() => handleMoveRight(list.id)}>&rarr;</button>
                 </div>
               );
