@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/List-creation-app/static/css/main.b3c7ccdb.css",
-    "main.js": "/List-creation-app/static/js/main.e3944732.js",
-    "index.html": "/List-creation-app/index.html",
-    "main.b3c7ccdb.css.map": "/List-creation-app/static/css/main.b3c7ccdb.css.map",
-    "main.e3944732.js.map": "/List-creation-app/static/js/main.e3944732.js.map"
+    "main.css": "/List-creation/static/css/main.b3c7ccdb.css",
+    "main.js": "/List-creation/static/js/main.5c3f1865.js",
+    "index.html": "/List-creation/index.html",
+    "main.b3c7ccdb.css.map": "/List-creation/static/css/main.b3c7ccdb.css.map",
+    "main.5c3f1865.js.map": "/List-creation/static/js/main.5c3f1865.js.map"
   },
   "entrypoints": [
     "static/css/main.b3c7ccdb.css",
-    "static/js/main.e3944732.js"
+    "static/js/main.5c3f1865.js"
   ]
 }
