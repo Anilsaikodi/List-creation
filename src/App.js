@@ -44,7 +44,7 @@ function App() {
   if (error) return <FailureView error={error} />;
 
   return (
-    <Router>
+    <Router basename="/List-creation-app">
       <div>
         <Routes>
           <Route
