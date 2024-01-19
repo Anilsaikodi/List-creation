@@ -79,25 +79,7 @@ function ListContainer({ lists, updatedList }) {
           </div>
         </div>
 
-        <div className="list-column">
-          <h2>
-            <input
-              type="checkbox"
-              checked={selectedLists.includes(3)}
-              onChange={() => handleCheckboxChange(3)}
-            />
-            List 3
-          </h2>
-          <div className="scrollable-list">
-            {lists
-              .filter((list) => list.list_number === 3)
-              .map((list) => (
-                <div key={list.id} className="list-item">
-                  <h3>{list.name}</h3>
-                </div>
-              ))}
-          </div>
-        </div>
+        
       </div>
 
       {/* Display updated list */}
